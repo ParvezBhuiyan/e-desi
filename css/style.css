@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-12{
+ width: 100%;
+}
+.col-4{
+    width: 33.3333%;
+    padding: 15px;
+}
+img{
+    max-width: 100%;
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.col-md-6{
+    width: 50%;
+    padding: 15px;
+}
+
+
+/*logo*/
+.logo{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0px;
+}
+.logo img{
+    width: 15%;
+}
+
+/*banner-section*/
+.banner-section{
+    background: url(../images/1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+}
+.box{
+    background: rgb(255, 255, 255,.5);
+    text-align: center;
+    width: 55%;
+    padding: 100px;
+    margin: auto;
+}
+h1{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 800;
+}
+.box p{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+.box span{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+}
+.box span del{}
+.button{
+    padding-top: 30px;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    padding: 15px 30px;
+}
+
+
+/*identity*/
+.identity{
+    padding: 70px 0px;
+}
+.identity-inner{
+    text-align: center;
+    padding: 30px 0px;
+}
+.identity-inner p{
+    width: 65%;
+    margin: auto;
+}
+.border {
+    width: 55%;
+    height: 2px;
+    background: #000;
+    margin: auto;
+}
+
+/*feature*/
+.feature{}
+.feature-inneer{}
+.feature-inneer img{}
+h5{
+    font-size: 21px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding: 20px;
+}
+.underline{
+    width: 30%;
+    height: 2px;
+    background: #000;
+    margin: auto;
+}
+.feature-inneer p{
+    padding: 20px 30px;
+}
+.card-body{text-align: center;}
+
+/*feature-section*/
+.feature-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature-section img{}
+
+.point{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+
+}
+.point li:first-child{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.point li{
+    list-style: none;
+    padding-top: 12px;
+}
+.point li i{
+    margin-right: 10px;
+}
+
+/*uses-section*/
+.uses-section{
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+}
+.uses-section span {
+    width: 50%;
+    height: 2px;
+    background: #000;
+    margin: 40px auto;
+    display: block;
+}
+.uses-section img{}
+.uses-section p{
+    width: 65%;
+    margin: auto;
+}
+
+/*card-section*/
+.card-section{
+    width: 100%;
+    padding:50px 0px;
+}
+.card-section img{}
+.card-inner{
+    text-align: center;
+}
+.card-inner h5{
+    font-size: 21px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding: 20px;
+}
+.card-inner span{
+    width: 30%;
+    height: 2px;
+    background: #000;
+    margin: auto;
+    display: block;
+
+}
+.card-inner p{
+    padding: 20px 30px;
+}
+
+
+
+/*footer-section*/
+.footer-section{
+    padding: 80px 0;
+    text-align: center;
+}
+.footer-section span{
+    height: 2px;
+    width: 45%;
+    background: #000;
+    margin: auto;
+    display: block;
+}
+.footer-section h1{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+.footer-section p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+.button{
+
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    padding: 15px 30px;
+}
+.copyright {
+    margin-top: 60px;
+}
+
+
